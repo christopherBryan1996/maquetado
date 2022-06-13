@@ -4,14 +4,12 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    font-family: sans-serif;
 }
 body{
     background: url(../img/index.jpg);
     /* para centrar */
     background-position: top center;
     height: 1080px;
-}
 header{
     position: relative;
     margin: auto;
