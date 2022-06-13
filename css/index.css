@@ -10,4 +10,174 @@ body{
     /* para centrar */
     background-position: top center;
     height: 1080px;
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 83px;
+    background: rgba(255, 255, 0, .5);
+}
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    background: rgba(255, 0, 0, .5);
+    border-bottom: 1px solid #bcd1cb;
+}
+nav ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 45px;
+    background: rgba(0, 255, 0, .5);
+}
+nav ul li{
+    float: left;
+    width: 124px;
+    height: 45px;
+    font-size: 14px;
+    color: white;
+    background: rgba(0, 0, 255, .5);
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#slide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 301px;
+    background: rgba(0, 0, 255, .5);
+}
+#botoneraSlide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 26px;
+    background: rgba(70, 255, 0, .5);
+}
+#botoneraSlide ul{
+    position: relative;
+    margin: auto;
+    width: 100px;
+    height: 26px;
+    background: rgba(255, 255, 0, .5);
+}
+#botoneraSlide ul li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: black;
+    border: 3px solid white;
+    margin: 3px 2px;
+}
+section{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: rgba(82, 133, 82, 0.5);
+}
+section ul li{
+    float: left;
+    width: 333px;
+    height: 299px;
+    background: rgba(0, 255, 0, .5);
+}
+section ul li h1{
+    margin: 23px 27px;
+    font-weight: 100px;
+    font-size: 25px;
+}
+section ul li p{
+    margin: 23px 28px;
+    font-size: 15px;
+}
+section ul li img{
+    width: 273px;
+    height: 83px;
+    background: silver;
+    margin: 1px 29px;
+}
+#bottom{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 196px;
+    background: rgba(0, 0, 255, .5);
+}
+#bottom ul li{
+    float: left;
+    width: 250px;
+    height: 190px;
+    background: rgba(0, 0, 255, .5);
+}
+#bottom ul li h1{
+    margin: 13px 18px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100px;
+}
+#bottom ul li ol{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    width: 190px;
+    height: 80px;
+    background: rgba(0, 255, 0, .5);
+}
+#bottom ul li ol li{
+    height: 20px;
+    text-align: left;
+    list-style: inside;
+    font-size: 15px;
+    color: white;
+}
+#bottom ul li img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 95px;
+    height: 95px;
+    border: 4px solid white;
+    background: silver;
+}
+#bottom ul li ul{
+    position: relative;
+    top: 11px;
+    left: 15px;
+    width: 200px;
+    height: 40px;
+    background: rgba(255, 0, 0, .5);
+}
+#bottom ul li ul li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+    margin: 5px;
+}
+footer{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 62px;
+    background: rgba(255, 255, 0, .5);
+    text-align: center;
+    color: white;
+    line-height: 62px;
+    font-size: 15px;
+}
+#logo{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 188px;
+    height: 47px;
+    background: rgba(0, 0, 255, .5);
 }
