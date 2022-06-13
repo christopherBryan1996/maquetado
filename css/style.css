@@ -73,7 +73,7 @@ nav ul li{
     border: 3px solid white;
     margin: 3px 2px;
 }
-section{
+#inicio{
     position: relative;
     margin: auto;
     width: 1000px;
@@ -196,4 +196,55 @@ footer{
     left: 15px;
     width: 188px;
     height: 47px;
+}
+
+#quienesSomos{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: white;
+    /* background: url(../img/quienesSomos.jpg); */
+}
+#quienesSomos h1{
+    position: relative;
+    top:15px;
+    left: 27px;
+    color: #1f1d21;
+    font-weight: 100;
+}
+#quienesSomos hr{
+    position: relative;
+    top: 20px;
+    width: 950px;
+    margin: auto;
+    border: 0.5px solid #c6c6c6c6;
+}
+#quienesSomos p{
+    position: relative;
+    top: 40px;
+    width: 950px;
+    margin: auto;
+    color: #414042;
+    text-align: justify;
+}
+#quienesSomos img{
+    float: left;
+    width: 272px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#servicios{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: url(../img/servicios.jpg);
+}
+#contactenos{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: white;
 }
